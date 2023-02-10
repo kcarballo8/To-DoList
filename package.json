@@ -1,0 +1,24 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "My Express Server for COmp 4310",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node .",
+    "start:watch": "nodemon ."
+  },
+  "author": "Karen Carballo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "session-file-store": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
